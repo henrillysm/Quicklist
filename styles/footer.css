@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-inline: 12px;
+    padding-block: 12px;
+    background-color: var(--color-danger);
+    border-radius: 12px;
+    color: var(--always-white);
+    margin-top: 2rem;
+
+    & span {
+        width: 100%;
+        font: var(--label) var(--ff-inter);
+    }
+}
+
+@media (width >= 85.38em) {
+    footer {
+        max-width: 39.187rem;
+        width: 100%;
+
+
+        & span {
+            max-width: 34.187rem;
+            width: 100%;
+            
+        }
+    }
+}
