@@ -30,18 +30,18 @@
 
     <form action="" class="container" id="listForm">
         <div class="addItems">
-            <input type="text" placeholder="Adicione um novo item">
-            <button type="submit">Adicionar item</button>
+            <input type="text" id="inItem" placeholder="Adicione um novo item">
+            <button type="submit" id="btn">Adicionar item</button>
         </div>
 
         <ul class="itemList" data-rule="list">
             <li>
                 <div class="checkbox-wrapper">
                     <div class="checkbox-image"></div>
-                    <input type="checkbox" name="item1" id="item1">
-                    <label for="item1">Pão de forma</label>
+                    <input type="checkbox" name="pao de forma" id="item001">
+                    <label for="item001">Pão de forma</label>
                 </div>
-                <button class="btn-delete">
+                <button type="button" class="btn-delete">
                     <img src="./assets/lixeira.png" alt="">
                 </button>
                 
@@ -50,10 +50,10 @@
             <li>
                 <div class="checkbox-wrapper">
                     <div class="checkbox-image"></div>
-                    <input type="checkbox" name="item2" id="item2">
-                    <label for="item2">Café preto</label>
+                    <input type="checkbox" name="café preto" id="item002">
+                    <label for="item002">Café preto</label>
                 </div>
-                <button class="btn-delete">
+                <button type="button" class="btn-delete">
                     <img src="./assets/lixeira.png" alt="">
                 </button>
                 
@@ -62,10 +62,10 @@
             <li>
                 <div class="checkbox-wrapper">
                     <div class="checkbox-image"></div>
-                    <input type="checkbox" name="item3" id="item3">
-                    <label for="item3">Suco de laranja</label>
+                    <input type="checkbox" name="suco de laranja" id="item003">
+                    <label for="item003">Suco de laranja</label>
                 </div>
-                <button class="btn-delete">
+                <button type="button" class="btn-delete" type="button">
                     <img src="./assets/lixeira.png" alt="">
                 </button>
             </li>
@@ -73,10 +73,10 @@
             <li>
                 <div class="checkbox-wrapper">
                     <div class="checkbox-image"></div>
-                    <input type="checkbox" name="item4" id="item4">
-                    <label for="item4">Bolacha</label>
+                    <input type="checkbox" name="bolacha" id="item004">
+                    <label for="item004">Bolacha</label>
                 </div>
-                <button class="btn-delete">
+                <button type="button" class="btn-delete">
                     <img src="./assets/lixeira.png" alt="">
                 </button>
             </li>
@@ -85,10 +85,10 @@
 
     </form>
 
-    <footer class="alert container">
+    <footer class="container">
         <img src="./assets/warning-circle-filled.png" alt="">
         <span>O item foi removido da lista</span>
-        <img src="./assets/delete-small.png" alt="">
+        <img src="./assets/delete-small.png" alt="" class="btn-close">
     </footer>
 
 

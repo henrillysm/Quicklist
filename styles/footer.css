@@ -1,5 +1,5 @@
 footer {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 8px;
     padding-inline: 12px;
@@ -14,6 +14,10 @@ footer {
         font: var(--label) var(--ff-inter);
     }
 }
+.alert {
+       display: flex;
+       cursor: pointer;
+    }
 
 @media (width >= 85.38em) {
     footer {
